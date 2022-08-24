@@ -1,0 +1,36 @@
+
+#######################################
+# Syntax Map For DFRobot_Beetle_COR_RP2040
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DFRobot_Font	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+playString	KEYWORD2
+
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+eChineseFont24x24	LITERAL1
+eChineseFont12x12	LITERAL1
+eEnglishAndLatinFont12X12_A	LITERAL1
+eEnglishAndLatinFont16X16_A	LITERAL1
+eEnglishAndLatinFont12X24_A	LITERAL1
+eEnglishAndLatinFont12X24_P	LITERAL1
+eJapanFont24x24	LITERAL1
+eKoreanFont24x24	LITERAL1
+eGreeceFont12x24	LITERAL1

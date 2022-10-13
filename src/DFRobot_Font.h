@@ -34,7 +34,7 @@ public:
    * @fn DFRobot_play
    * @brief Construct a new dfrobot play object
    */
-  DFRobot_Font(uint8_t dc = 8, uint8_t cs = 9, uint8_t rst = 15, uint8_t bl = 7);
+  DFRobot_Font(uint8_t dc = 8, uint8_t cs = 9, uint8_t rst = 15, uint8_t bl = 7,SPIClass *pspi = &SPI1);
 
   /**
    * @fn begin

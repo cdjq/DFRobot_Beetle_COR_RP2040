@@ -1,6 +1,6 @@
 #include "DFRobot_Font.h"
 
-DFRobot_Font::DFRobot_Font(uint8_t dc, uint8_t cs, uint8_t rst, uint8_t bl):DFRobot_ST7789_172x320_HW_SPI(dc,cs,rst,bl){};
+DFRobot_Font::DFRobot_Font(uint8_t dc, uint8_t cs, uint8_t rst, uint8_t bl,SPIClass *pspi):DFRobot_ST7789_172x320_HW_SPI(dc,cs,rst,bl,pspi){};
 
 uint8_t DFRobot_Font::begin(void)
 {
@@ -95,7 +95,7 @@ void DFRobot_Font::playString(uint16_t x, uint16_t y, String str, uint16_t color
           GREECE_12X24_GetData(unicode,_pBits);
         }
         drawBitmap(_x,_y,_pBits,12,24,color,bg);
-        _x += 8;
+        _x += 12;
       break;
       default:
         break;
